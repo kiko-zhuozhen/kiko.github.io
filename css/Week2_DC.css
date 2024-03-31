@@ -1,0 +1,28 @@
+body {
+    margin: 100px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+    color: maroon;
+}
+
+#part {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top:100px;
+
+}
+
+.first_part {
+    margin:20px;
+    color:brown;
+    font-size: 22px;
+}
+
+button {
+    font-size: 18px;
+    color:black;
+}

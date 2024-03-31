@@ -1,0 +1,44 @@
+body {
+    margin: 100px;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #2BFF27;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+h3 {
+    font-size: 28px;
+    margin-top:10px;
+}
+
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+ul {
+    padding:10px;
+}
+
+li {
+    padding:10px;
+}
+
+p {
+    font-size:20px;
+    font-weight: bolder;
+}
+
+table, tr, th {
+    border: 2px solid pink;
+}
+
+tr, th {
+    padding: 16px;
+    text-align: left;
+}
+
