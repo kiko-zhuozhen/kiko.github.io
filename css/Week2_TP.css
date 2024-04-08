@@ -37,8 +37,8 @@ table, tr, th {
     border: 2px solid pink;
 }
 
-tr, th {
+tr, td {
     padding: 16px;
-    text-align: left;
+    text-align: center;
 }
 

@@ -1,0 +1,62 @@
+$uchicago-maroon: #800000;
+$uchicago-light-gray:#D6D6CE;
+$uchicao-dark-gray:#767676;
+$uchicago-white:#ffffff;
+$uchicago-black:#000000;
+
+body {
+    background-color:$uchicago-light-gray;
+}
+
+nav {
+    margin-bottom: 30px;
+    background-color: $uchicago-maroon;
+    padding-left:50px;
+}
+
+.nav-link {
+    margin-left:50px;
+}
+
+.text {
+    color:$uchicago-white;
+    font-weight: bold;
+}
+
+.paragraph {
+    margin-left:50px;
+}
+
+.color ul{
+    display: flex;
+}
+
+.color ul .maroon{
+    list-style-type: none;
+    width:300px;
+    padding: 20px;
+    background-color: $uchicago-maroon;
+    color:$uchicago-white;
+    margin-right: 30px;
+}
+
+.color ul li .title {
+    @extend .text
+}
+
+.color ul .black {
+    list-style-type: none;
+    width:300px;
+    padding: 20px;
+    background-color: $uchicago-black;
+    color:$uchicago-white;
+    margin-right:30px;
+}
+
+.color ul .white {
+    list-style-type: none;
+    width:300px;
+    padding: 20px;
+    background-color: $uchicago-white;
+    color:$uchicago-maroon;
+}

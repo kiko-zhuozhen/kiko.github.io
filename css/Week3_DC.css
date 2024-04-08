@@ -1,0 +1,79 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.navbar {
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+.nav-link {
+    margin-left:50px;
+}
+
+table, tr, td, th {
+    border: 2px solid pink;
+    font-family: "Reddit Mono", monospace;
+}
+
+h1 {
+    margin-left:50px;
+    margin-bottom: 50px;
+}
+
+tr, td {
+    padding: 16px;
+    text-align: center;
+}
+
+.reddit-mono-example {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lists {
+    display: flex;
+}
+
+ol {
+    margin-left: 100px;
+}
+
+.a {
+    list-style-type: lower-roman;
+}
+
+.b {
+    list-style: square;
+}
+
+.c {
+    list-style-type:lower-alpha;
+}
+
+.d {
+    list-style: '$ ';
+}
+
+p {
+    margin-left: 50px;
+}
+
+p a {
+    text-decoration: none;
+}
+
+p a:visited {
+    color: hotpink;
+}
+
+p a:hover {
+    color: darkcyan;
+}
+
+ol li::first-letter {
+    font-size:25px;
+    font-weight: bold;
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: #D6D6CE;
+}
+
+nav {
+  margin-bottom: 30px;
+  background-color: #800000;
+  padding-left: 50px;
+}
+
+.nav-link {
+  margin-left: 50px;
+}
+
+.text, .color ul li .title {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.paragraph {
+  margin-left: 50px;
+}
+
+.color ul {
+  display: flex;
+}
+
+.color ul .maroon {
+  list-style-type: none;
+  width: 300px;
+  padding: 20px;
+  background-color: #800000;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+.color ul .black {
+  list-style-type: none;
+  width: 300px;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+.color ul .white {
+  list-style-type: none;
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #800000;
+}/*# sourceMappingURL=Week3_TP.css.map */
