@@ -13,8 +13,13 @@ h2 {
 }
 
 .navbar {
+    background-color: maroon;
     margin-bottom: 30px;
     padding-left: 50px;
+}
+
+.navbar-brand {
+    background-color:maroon;
 }
 
 .nav-link {

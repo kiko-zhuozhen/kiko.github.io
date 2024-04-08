@@ -1,0 +1,13 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.navbar {
+    background-color: maroon;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+.nav-link {
+    margin-left:50px;
+}
