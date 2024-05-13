@@ -1,18 +1,19 @@
-body {
-    /* margin: 50px 50px; */
+.content {
     background-color: pink;
     color: #000;
 }
 
-h1 {
+.content h1 {
+    padding-top: 30px;
     text-align: center;
 }
 
-h2 {
+.content h2 {
     background-color: #fff;
+    color: #000;
 }
 
-.navbar {
+/* .navbar {
     background-color: maroon;
     margin-bottom: 30px;
     padding-left: 50px;
@@ -24,39 +25,42 @@ h2 {
 
 .nav-link {
     margin-left:50px;
-}
+} */
 
-h3 {
+.content h3 {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.week2 {
+.content .week2 {
     display: flex;
 }
 
-.week3 {
+.content .week3 {
     display: flex;
 }
 
-.week4 {
+.content .week4 {
     display: flex;
 }
 
-.week5 {
+.content .week5 {
     display: flex;
 }
 
-.week6 {
+.content .week6 {
     display: flex;
 }
 
-.week7 {
+.content .week7 {
     display: flex;
 }
 
+.content .week8 {
+    display: flex;
+}
 
-.first_part {
+.content .first_part {
     margin:20px;
     padding: 20px;
     width: 50%;
@@ -66,11 +70,11 @@ h3 {
     margin-top:20px;
 }
 
-p {
+.content p {
     background-color: #fff;
 }
 
-a {
+.content a {
     background-color: #fff;
     color:blue;
     font-size: 20px;
