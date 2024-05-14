@@ -1,1 +1,1 @@
-$(function () {$("#nav-placeholder").load("kiko.github.io/nav.html");});
+$(function () {$("#nav-placeholder").load("nav.html");});
