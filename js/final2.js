@@ -1,26 +1,13 @@
-document.addEventListener('DOMContentLoaded', function(){
-    loadXMLDoc();
-})
-
 function loadXMLDoc() {
     const url='https://ochre.lib.uchicago.edu/ochre?uuid=a6e6049c-66dc-43ee-968d-e74c4909f496';
-    //const url = "./xml/sample-1.xml";
 
-    let xmlhttp = new XMLHttpRequest();
-
-    xmlhttp.onreadystatechange = function() {
-        if(this.readyState == 4 && this.status == 200){
-            let xmlDoc = this.responseXML;
-            printData(xmlDoc);
-        }
-    }
-
-    xmlhttp.open("GET", url);
-    xmlhttp.send();
-};
-
-function printData(xmlDoc){
-    let objectData = xmlDoc.getElementsByTagName("spatialUnit");
+    fetch(url)
+    .then(response => response.text())
+    .then(xmlData => {
+        const parser = new DOMparser();
+        const xmlDoc = parser.parseFromString(xmlData, 'application/xml');
+        
+        let objectData = xmlDoc.getElementsByTagName("spatialUnit");
 
 
     for (let i = 0; i < objectData.length; i++) {
@@ -36,5 +23,5 @@ function printData(xmlDoc){
         newCol02.innerHTML = objectData[i].children[4].children[1].children[1].innerHTML;
         document.getElementById("row"+i).appendChild(newCol02);
         console.log(newCol02);
-    }
-};
+    }})
+}
