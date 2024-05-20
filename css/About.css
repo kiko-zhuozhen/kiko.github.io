@@ -6,12 +6,5 @@ body {
 .content {
     width: 80%;
     margin:50px;
-}
-
-h1 {
-    margin-top:50px;
-}
-
-footer {
-    bottom: 0;
+    
 }

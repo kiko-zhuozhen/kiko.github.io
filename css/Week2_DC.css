@@ -1,28 +1,31 @@
 body {
-    margin: 100px;
     box-sizing: border-box;
 }
 
-h1 {
+.content {
+    margin:100px;
+}
+
+.content h1 {
     text-align: center;
     margin: 40px 0;
     color: maroon;
 }
 
-#part {
+.content #part {
     font-size: 28px;
     font-weight: bold;
     margin-top:100px;
 
 }
 
-.first_part {
+.content .first_part {
     margin:20px;
     color:brown;
     font-size: 22px;
 }
 
-button {
+.content button {
     font-size: 18px;
     color:black;
 }

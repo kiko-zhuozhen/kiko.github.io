@@ -2,12 +2,6 @@ body{
     background-color: bisque;
 }
 
-.navbar {
-    padding:40px;
-    background-color: black;
-    height:10px;
-}
-
 h1 {
     margin:50px;
 }
@@ -31,4 +25,8 @@ h1 {
 
 #number-check #number-response {
     margin-top:20px;
+}
+
+footer {
+    bottom: 0;
 }

@@ -1,43 +1,46 @@
 body {
-    margin: 100px;
-    box-sizing: border-box;
     background-color: #000;
+}
+
+.content{
+    margin:100px;
+    box-sizing: border-box;
     color: #2BFF27;
 }
 
-h1 {
+.content h1 {
     text-align: center;
     margin: 40px 0;
 }
 
-h3 {
+.content h3 {
     font-size: 28px;
     margin-top:10px;
 }
 
-table {
+.content table {
     width:100%;
     border-collapse: collapse;
 }
 
-ul {
+.content ul {
     padding:10px;
 }
 
-li {
+.content li {
     padding:10px;
 }
 
-p {
+.content p {
     font-size:20px;
     font-weight: bolder;
 }
 
-table, tr, th {
+.content table, tr, th {
     border: 2px solid pink;
 }
 
-tr, td {
+.content tr, td {
     padding: 16px;
     text-align: center;
 }

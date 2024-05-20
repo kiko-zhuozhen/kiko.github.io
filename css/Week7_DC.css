@@ -4,12 +4,6 @@ html {
     outline: 0;
   }
 
-.navbar {
-    padding:40px;
-    background-color: black;
-    height:10px;
-}
-
 h1 {
     margin:50px;
 }

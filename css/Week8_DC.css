@@ -16,3 +16,7 @@ html, body {
     text-align: center;
     margin:50px;
 }
+
+footer {
+    bottom: 0;
+}

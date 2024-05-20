@@ -1,119 +1,120 @@
-h1 {
+.Nav h1 {
     color: black;
 }
   
-h3 {
+.Nav h3 {
     color: #767676;
 }
   
-h2 {
+.Nav h2 {
     color: #D6D6CE;
 }
   
-p {
+.Nav p {
     color: black;
 }
   
-a.link {
+.Nav a.link {
     color: white;
     text-decoration: none;
     margin-right: 15px;
     margin-left: 0;
 }
   
-a.link:hover {
+.Nav a.link:hover {
     font-weight: bold;
     color: white;
 }
   
-a.link:focus {
+.Nav a.link:focus {
     font-weight: bold;
     color: white;
 }
   
-.navbar {
+.Nav .navbar {
     background-color: #800000;
 }
   
-.col-sm, .col-md {
+.Nav .col-sm, .col-md {
     background-color: #D6D6CE;
     margin: 15px;
     padding: 5px;
 }
   
-.row {
+.Nav .row {
     margin: 15px;
 }
   
-.row-center {
+.Nav .row-center {
     margin-left: -15px;
 }
   
-.uniform-four-column-image {
+.Nav .uniform-four-column-image {
     width: 100%;
     height: 300px;
     -o-object-fit: cover;
        object-fit: cover;
 }
   
-.uniform-two-column-image {
+.Nav .uniform-two-column-image {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     padding: 5px;
 }
 
-.internal-container {
+.Nav .internal-container {
     padding: 20px;
     margin-top: 20px;
     outline: 2px solid black;
 }
   
-.icon-button {
+.Nav .icon-button {
     background-color: #800000;
     color: white;
 }
   
-.icon-button:hover {
+.Nav .icon-button:hover {
     box-shadow: 0 0 10px 0 #800000 inset, 0 0 30px 5px #800000;
     color: white;
 }
   
-.index-link {
+.Nav .index-link {
     color: #800000;
     text-decoration: none;
     font-weight: bold;
 }
   
-.index-link:hover {
+.Nav .index-link:hover {
     color: #800000;
     text-decoration: underline;
 }
   
-.maroon_text {
+.Nav .maroon_text {
     color: #800000;
 }
   
-.unordered_no_bullets {
+.Nav .unordered_no_bullets {
     list-style-type: none;
 }
   
-.maroon_bar {
+.Nav .maroon_bar {
     background-color: #800000;
     color: white;
 }
   
-.active {
+.Nav .active {
     color: white;
     font-weight: bold;
 }
   
-.footer {
+.Nav .footer {
     background-color: #800000;
     width: 100%;
     position: absolute;
+    height: 120px;
 }
   
-.container-content {
+.Nav .container-content {
     min-height: calc(100vh - 150px);
 }
