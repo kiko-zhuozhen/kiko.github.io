@@ -1,6 +1,6 @@
 .content {
     color: #000;
-    background-color: wheat;
+    background-color: lightgoldenrodyellow;
 }
 
 .content h1 {
@@ -63,7 +63,7 @@
     margin:20px;
     padding: 20px;
     width: 50%;
-    background-color: aliceblue;
+    background-color: paleturquoise;
     border-radius: 8px;
     text-align: center;
     margin-top:20px;
